@@ -1,0 +1,61 @@
+{
+  "dataset": {
+    "total_samples": 2000,
+    "train_samples": 1600,
+    "test_samples": 400,
+    "test_churn_rate": 0.375
+  },
+  "imbalance_handling": "class_weight='balanced'",
+  "random_state": 42,
+  "models": {
+    "LogisticRegression": {
+      "metrics": {
+        "roc_auc": 0.7823,
+        "precision": 0.5534,
+        "recall": 0.76,
+        "f1": 0.6404,
+        "accuracy": 0.68
+      },
+      "parameters": {
+        "max_iter": 1000,
+        "class_weight": "balanced"
+      }
+    },
+    "RandomForestClassifier": {
+      "metrics": {
+        "roc_auc": 0.7905,
+        "precision": 0.5491,
+        "recall": 0.82,
+        "f1": 0.6578,
+        "accuracy": 0.68
+      },
+      "best_cv_roc_auc": 0.7942,
+      "best_parameters": {
+        "max_depth": 5,
+        "min_samples_leaf": 4,
+        "min_samples_split": 2,
+        "n_estimators": 100
+      }
+    }
+  },
+  "top_features": {
+    "Contract_Month-to-month": 0.3461,
+    "Contract_Two year": 0.1137,
+    "MonthlyCharges": 0.0896,
+    "Contract_One year": 0.0805,
+    "monthly_to_total_ratio": 0.0738,
+    "tenure": 0.0601,
+    "TotalCharges": 0.0527,
+    "tenure_cohort_0-12": 0.0337,
+    "Dependents_No": 0.0193,
+    "Dependents_Yes": 0.0142
+  },
+  "best_model": "RandomForestClassifier",
+  "best_metrics": {
+    "roc_auc": 0.7905,
+    "precision": 0.5491,
+    "recall": 0.82,
+    "f1": 0.6578,
+    "accuracy": 0.68
+  }
+}
