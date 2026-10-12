@@ -1,11 +1,13 @@
 # Customer Churn Analysis & Prediction Dashboard
 
-[![CI Pipeline](https://github.com/example/customer-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/example/customer-analysis/actions)
-[![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?logo=streamlit&logoColor=white)](https://your-demo-url-here.streamlit.app)
+[![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://customer-churn-analysis.streamlit.app)
+[![CI Pipeline](https://github.com/vanshiiii11/customer-churn-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/vanshiiii11/customer-churn-analysis/actions)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An end-to-end machine learning system and interactive Streamlit web dashboard for customer churn intelligence — spanning automated data cleaning, exploratory data analysis, class imbalance mitigation, hyperparameter tuning, model explanation, batch CSV prediction, and containerized deployment.
+
+> 🌐 **Live Demo:** [https://customer-churn-analysis.streamlit.app](https://customer-churn-analysis.streamlit.app)
 
 ---
 
@@ -13,7 +15,12 @@ An end-to-end machine learning system and interactive Streamlit web dashboard fo
 
 ![Customer Churn Intelligence App](images/app_screenshot.png)
 
-> **Live Demo:** [https://your-demo-url-here.streamlit.app](https://your-demo-url-here.streamlit.app) *(Deploy link placeholder)*
+> 🚀 **Explore the interactive app:** [https://customer-churn-analysis.streamlit.app](https://customer-churn-analysis.streamlit.app)
+
+---
+
+## Repository Topics
+`churn` · `machine-learning` · `streamlit` · `scikit-learn` · `customer-churn` · `predictive-modeling` · `data-science` · `docker`
 
 ---
 
@@ -121,8 +128,8 @@ customer-analysis/
 
 ```bash
 # 1. Clone repository and navigate to folder
-git clone https://github.com/example/customer-analysis.git
-cd customer-analysis
+git clone https://github.com/vanshiiii11/customer-churn-analysis.git
+cd customer-churn-analysis
 
 # 2. Create and activate a clean virtual environment
 python3 -m venv .venv
@@ -254,4 +261,6 @@ pytest -v
 ---
 
 ## Author
-*Add your name/LinkedIn here before pushing*
+**Vanshika Motwani**
+- GitHub: [@vanshiiii11](https://github.com/vanshiiii11)
+- LinkedIn: [Vanshika Motwani](https://www.linkedin.com/in/vanshika-motwani-2834b632b/)
